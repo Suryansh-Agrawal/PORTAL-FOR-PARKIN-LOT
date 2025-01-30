@@ -1,0 +1,93 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;  /* Light blue background */
+    background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/dark_mosaic.png');  /* Texture */
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .banner {
+    width: 100%;
+    background-color: #0288d1;  /* Blue background for banner */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .signup-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0288d1;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #0288d1;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #0288d1;
+    border-radius: 4px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #0288d1;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0277bd;
+  }
+  
+  .login-link {
+    text-align: center;
+    margin-top: 15px;
+    color: #0288d1;
+  }
+  
+  .login-link a {
+    color: #0288d1;
+    text-decoration: none;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+  

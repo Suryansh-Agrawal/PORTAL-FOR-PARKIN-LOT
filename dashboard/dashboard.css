@@ -1,0 +1,124 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f8e9;  /* Light green background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .banner {
+    width: 100%;
+    background-color: #43a047;  /* Green background for banner */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .dashboard-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #43a047;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #43a047;
+  }
+  
+  .input-group input,
+  .input-group select {
+    width: 100%;  /* Ensures full width */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #43a047;
+    border-radius: 4px;
+  }
+  
+  .camera-icon-container {
+    display: flex;
+    justify-content: center; /* Center the icon horizontally */
+    margin-top: 10px;
+  }
+  
+  .camera-icon-container button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    transition: transform 0.2s, color 0.2s;
+  }
+  
+  .camera-icon-container button:hover {
+    transform: scale(1.2);
+    color: #388e3c;
+  }
+  
+  .camera-icon-container i {
+    color: #323432;
+    font-size: 2rem;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #43a047;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #beffc1;
+  }
+  
+  /* Styling for Receipt */
+  .receipt {
+    background-color: #ffffff;
+    border: 1px solid #43a047;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+  }
+  
+  .receipt h1 {
+    font-size: 24px;
+    color: #43a047;
+    margin-bottom: 20px;
+  }
+  
+  .receipt p {
+    font-size: 16px;
+    margin: 8px 0;
+  }
+  

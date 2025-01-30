@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exit - Parking Seva Portal</title>
+  <link rel="stylesheet" href="exit.css">
+</head>
+<body>
+  <!-- Banner Section -->
+  <div class="banner">
+    <h1>Parking Seva Portal</h1>
+  </div>
+
+  <!-- Form Section -->
+  <div class="exit-container">
+    <h2>Exit Vehicle</h2>
+    <form id="exit-form" method="POST" action="exit.php">
+      <div class="input-group">
+        <label for="vehicle-number">Vehicle Number:</label>
+        <input type="text" id="vehicle-number" name="vehicle-number" required placeholder="Enter your vehicle number">
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <!-- Receipt Section -->
+  <div id="receipt" class="receipt" style="display: none;">
+    <h2>Exit Receipt</h2>
+    <p><strong>Vehicle Number:</strong> <span id="receipt-vehicle-number"></span></p>
+    <p><strong>Exit Time:</strong> <span id="receipt-exit-time"></span></p>
+  </div>
+
+  <!-- Error message section -->
+  <div id="error-message" style="display: none; color: red; text-align: center;">
+    Vehicle not found. Please enter a valid vehicle number.
+  </div>
+
+  <script src="exit.js"></script>
+</body>
+</html>
